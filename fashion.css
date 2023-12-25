@@ -1,0 +1,62 @@
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+/* .topics{
+    padding-left: 40px;
+} */
+
+.favdiv > p{
+    margin-top: 0;
+    font-weight: 600;
+}
+.favdiv > h2{
+    margin-top: 0;
+    font-size: 30px;
+}
+.favdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstdiv-fav{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: antiquewhite;
+    height: 12rem;
+}
+.show-section{
+    margin-left: 30px;
+}
+.parahim{
+    display: flex;
+    
+    
+
+}
+.undershow-section:hover{
+    box-shadow: 1px 1px 14px grey;
+}
+.undershow-section{
+    margin-top: 30px;
+    width: 33rem;
+    display: flex;
+    box-shadow: 1px 1px 5px grey;
+    margin-left: 18rem;
+    border-radius: 20px;
+    height: 10rem;
+    margin-bottom: 30px;
+    
+}
+
+
+.undershow-section > img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+}
+    
+.parahim{
+    margin-top: 20px;
+    display: grid;
+}

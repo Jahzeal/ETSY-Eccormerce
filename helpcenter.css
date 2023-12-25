@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+}
+.cookies {
+    display: flex;
+    justify-content: center;
+}
+.cookies >p a{
+    color: black;
+}
+
+.help-top p> a:hover{
+    text-decoration: underline;
+}
+.help-top > p,
+.help-top p a{
+    color: white;
+    text-decoration: none;
+}
+
+.help-top > p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.help-top > #sign:hover{
+    box-shadow: 0.6px 1px 5px grey;
+}
+.help-top a > p{
+    text-decoration: none;
+    margin-right: 20px;
+    width: 60px;
+    height: 23px;
+    padding-top: 5px;
+    padding-left: 15px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.help-top{
+    background-image: url(icons/pictures/backgroundhelp.png);
+    display: flex;
+    justify-content: space-between;
+    height: 15rem;
+    color: white;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    margin-top: -130px;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.question > p{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.question > input{
+    margin-top: -25px;
+    height: 36px;
+    width: 30rem;
+    border-radius: 36px;
+}
+
+.question > button img{
+    height: 26px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.question > :placeholder-shown{
+    padding-left: 15px;
+}
+
+.question > button:hover{
+    box-shadow: 1px 2px 4px grey;
+}
+.question > button{
+    margin-top: -40px;
+    margin-left: 27.9rem;
+    width: 55px;
+    height: 37.9px;
+    border:none;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+.problem-section{
+    background-color: #D7E6F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+}
+.problem-section > p{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 100;
+    padding-bottom: 10px;    
+}
+
+.problem-section > button:hover{
+    box-shadow: 0.4px 1px 4px grey;
+}
+.problem-section > button{
+    margin-bottom: 50px;
+    padding: 8px 18px;
+    display: flex;
+    margin-left: 30rem;
+    font-size: 12px;
+    width: 10rem;
+    height: 33px;
+    border-radius: 20px;
+}
+
+
+
+
+.Shopping > a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808);
+}
+.Shopping{
+    gap: 35px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.down-section > h2{
+    display: flex;
+    justify-content: center;
+}
+.grid-articles > .firstarticle a,
+.grid-articles > .firstarticles a{
+    text-decoration: none;
+}
+
+.firstarticle > a >#after,
+.firstarticles > a >#after{
+    color: grey;
+    font-size: 12px;
+    font-weight: 300;
+}
+.firstarticle > a > p,
+.firstarticles >a >p{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.grid-articles >.firstarticles{
+    border-radius: 9px;
+    width: 290px;
+    height: 60px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-wrap: nowrap;
+}
+
+.grid-articles > .firstarticle:hover{
+    box-shadow: 0.5px 0.5px 5px   grey;
+}
+
+.grid-articles > .firstarticles:hover{
+    box-shadow: 1px 1px 5px   grey;
+}
+.grid-articles >.firstarticle{
+    border-radius: 9px;
+    width: 192px;
+    height: 60px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-wrap: nowrap;
+}
+.grid-articles{
+    gap: 5px;
+    margin-left: 62px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+
+.shopSettings > .shop-info {
+    display: flex;
+}
+
+.shopSettings > .shop-info a{
+    text-decoration: none;
+    color: black;
+}
+.shopSettings > .shop-info >img{
+    padding-right: 20px;
+    padding-top: 14px;
+    height: 50px;
+}
+.shopSettings .shop-info a p:hover{
+    text-decoration: underline;
+}
+.shopSettings {
+    display: flex;
+    margin-left: 30px;
+}
+
+
+.lastbar > h2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.lastbar{
+    height: 26rem;
+    width: 70rem;
+    background-color: #6d2f1036;
+}
+.buttonSection > a #firstButton{
+    background-color: black;
+    color: white;
+}
+
+.buttonSection > a > button:hover{
+    box-shadow: 0.5px 0.10px 7px   grey;
+}
+.buttonSection > a > button {
+    height: 45px;
+    width: 16rem;
+    border-radius: 23px;
+    
+} 
+.buttonSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.journal-section > .section > a #sect{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.journal-section > .section > a #sec:hover{
+    text-decoration: underline;
+}
+.journal-section > .section a{
+    text-decoration: none;
+    color: rgba(50, 49, 49, 0.801);
+}
+.journal-section{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 50px;
+    gap: 30px;
+}
+
+.thirdclass > a:hover{
+    text-decoration: underline;
+}
+.thirdclass > a{
+    color: black;
+    text-decoration: none;
+}
+.thirdclass{
+    display: flex;
+    margin-right: 20px;
+    gap: 10px;
+}
+.secondclass{
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+.finalclass{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 20px;
+}

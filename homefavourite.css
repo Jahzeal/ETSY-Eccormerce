@@ -1,0 +1,205 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.home-section > h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.home-section #underhome{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+.fav-image > p{
+    padding-top: 0px;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 13px;
+    display: flex;
+    text-wrap: nowrap;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.fav-image > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.fav{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.home-section{
+    margin-top: 12px;
+    padding-top:1px;
+    height: 13rem;
+    background-color: rgba(171, 219, 243, 0.922);
+}
+.unique-section > button:hover{
+    background-color: rgba(202, 195, 195, 0.721);
+    transition: 0.3s;
+}
+.unique-section > button >img{
+    height: 30px;
+}
+.unique-section > button{
+    
+    box-shadow: 0.1px 0.2px 12px grey;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 48.9rem;
+    width: 40px;
+    height: 40px;
+    margin-top: -52px;
+    border: none;
+}
+.unique-section > input{
+    margin-left: 5rem;
+    padding-left: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 45rem;
+    margin-bottom: 10px;
+}
+.unique{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.unique-section{
+    margin-left: 60px;
+    width: 60rem;
+    box-shadow: 0.1px 0.2px 8px grey;
+    padding-top: 40px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.pend > p{
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+    text-wrap: nowrap;
+}
+.pend > img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.pend{
+    margin-top: 20px;
+    /* display: grid;
+    align-items: center; */
+}
+.secondpend{
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.giftesty > .addcart{
+    display: flex;
+    gap: 5px;
+}
+.giftesty > #secondpgh > span{
+    padding-left: 8px;
+    text-decoration: line-through;
+    color: grey;
+}
+.addcart > button{
+    height: 34px;
+    border-radius: 17px;
+    width: 6rem;
+}
+.giftesty > #free{
+    color: grey;
+    font-size: 10px;
+}
+.addcart > #thirdpghp{
+    margin-top: 10px;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+.giftesty > #thirdpgh,
+.addcart > #thirdpgh{
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+.giftesty > #secondpgh{
+    color: green;
+}
+.giftesty > p #firstpgh{
+    color: rgb(31, 30, 30);
+    font-size: 5px;
+}
+.giftesty > p{
+    display: flex;
+    flex-direction: row;
+}
+.giftesty > img:hover{
+    transition: 0.3s;
+    box-shadow: 0.2px 1.2px 0px 2.2px rgb(210, 207, 207);
+}
+.giftesty > img{
+    width: 15rem;
+    height: 15rem;
+}
+.moregifts{
+    text-wrap: nowrap;
+    margin-top: 20px;
+    margin-left: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#filter{
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+}
+.searchsect > nav a > h2{
+    padding-bottom: 40px;
+}
+.searchsect > nav a{
+    color: black;
+    font-size: 23px;
+}
+.searchsect a p{
+    padding-left: 25px;
+    padding-top:8px;
+}
+.searchsect > a{
+    background-color: rgb(220, 215, 215);
+    color: black;
+    margin-left: 40px;
+    padding-left: 10px;
+    /* padding-top: 5px; */
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 23px;
+    height: 34px;
+    width: 145px;
+}
+.searchsect{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+/* remaining style is in the other page */
+.something{
+    display: flex;
+    gap: 30px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,278 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.firstdivgift{
+    margin-top: 10px;
+    background-color: rgb(207, 227, 207);
+    height: 14rem;
+}
+.containergift p a:hover{
+    text-decoration: underline 0.4px;
+}
+.containergift > p a{
+    color: black;
+    text-decoration: none;
+}
+.containergift{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.paragraph h2{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 1;
+}
+.paragraph > p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    /* padding-bottom: 6px; */
+    display: flex;
+    justify-content: center;
+}
+.gift-section{
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+.gift-properties > img{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.gift-properties > p{
+    display: flex;
+    justify-content: center;
+    font-weight: 540;
+    text-wrap: nowrap;
+}
+
+.contents > input{
+    margin-top: -30px;
+    box-shadow: 0.3px 0.1px 3px rgba(85, 84, 84, 0.804);
+    border: 0.1px solid;
+    padding-left: 20px;
+    border-radius: 40px;
+    height: 40px;
+    width: 40rem;
+    margin-bottom: 10px;
+}
+
+.contents #searchbutton img{
+    height: 30px;
+}
+.contents > #searchbutton{
+    margin-top: -27px;
+    height: 37px;
+    width: 50px;
+    border: none;
+    margin-left: -50px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.othersetion > #popular{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+.othersetion > #meet{
+    margin-top: 0;
+    font-size:25px;
+    font-weight: 500;
+}
+.othersetion{
+    display: grid;
+    justify-content: center;
+}
+.holidaysection > h2{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 1px;
+    /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+
+}
+.holidaysection{
+    border-radius: 20px;
+    border: 5px solid rgb(244, 241, 241);
+    margin-top: 20px;
+    margin-left: 60px;
+    box-shadow: 0.1px 0.1px  5px grey;
+    box-shadow: -1px -1px  5px grey;
+    height: 19rem;
+    width: 60rem;
+    /* background-color: aqua; */
+}
+.contents{
+    display: flex;
+    justify-content: center;
+}
+.imagesect > p{
+    padding-top: 5px;
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    font-weight: 550;
+}
+.imagesect img{
+    height: 60px;
+    border-radius: 50%;
+}
+.imagesetion{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.stuff > #name{
+    padding-top: 3px;
+    color: grey;
+    padding-bottom: 5px;
+}
+.stuff > #mon{
+    padding-top: 5px;
+    font-weight: 650;
+    font-size: 13px;
+}
+.stuff > #firstpgh{
+    color: rgba(10, 10, 10, 0.936);
+    font-size: 14px;
+}
+.stuff img:hover{
+    box-shadow: 1px 1px 9px grey;
+    transition: 0.4s;
+}
+.stuff > img{
+    height: 200px;
+}
+.readyitems{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 40px;
+}
+.ready-section > button:hover{
+    box-shadow: 0.1px 1px 2px grey;
+}
+.ready-section > button{
+    margin-left: 40px;
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
+}
+.ready-section > h2{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.more-section > a #discover{
+    color: black;
+}
+.more-section > a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(228, 223, 223);
+    padding-left: 33px;
+    padding-top: 10px;
+    height: 28px;
+    width: 100px;
+    border-radius: 40px;
+    border: 1px solid grey;
+}
+.more-section > nav{
+    margin-top: 30px;
+}
+.more-section > nav a{
+    font-size: 10px;
+    font-weight: 100;
+    /* background-color: aqua; */
+    color: black;
+}
+.more-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.lastimage > img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+}
+.lastimage{
+    width: 60rem;
+    display: flex;
+    box-shadow: 1px 1px 5px grey;
+    margin-left: 60px;
+    border-radius: 10px;
+    height: 8rem;
+    
+}
+.show-sect > img{
+    height: 150px;
+    width: 180px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+.show-sect{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 23rem;
+    width: 450px;
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 10px;
+}
+.show-section > img{
+    height: 150;
+    width: 180px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+}
+.show-section:hover{
+    box-shadow: 1px 1px 12px grey;
+}
+.show-section{
+    width: 30rem;
+    display: flex;
+    box-shadow: 1px 1px 5px grey;
+    /* border: 1px solid grey; */
+    border-radius: 20px;
+}
+.downsect{
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.paragraphForMore{
+    margin-top: 20px;
+    display: grid;
+}
+.learn > h3{
+    margin-bottom: 15px;
+    font-size: 35px;
+    
+    
+}
+.firstlearn > p{
+    border-bottom: 1px solid grey;
+    margin-left: 50px;
+    color: grey;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.learn{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
