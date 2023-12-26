@@ -151,7 +151,47 @@
 .noteshead > h3{
     display: flex;
     justify-content: center;
+    font-weight: 100;
+    font-size: 37px;
 }
-.notes{
-    
+.imageclass > img{
+    margin-top: 35px;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+}
+.imageclass{
+    display: flex;
+}
+.holdImageP{
+    display: flex;
+}
+.occasionpara{
+    margin-left: 20px;
+}
+.giftarticcles > h3{
+    padding-bottom: 40px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 37px;
+}
+.contentpgh > p:hover,
+.contentpgh2 >p:hover{
+    width: 25rem;
+    cursor: pointer;
+    box-shadow: 0.1px 0.3px 5px grey;
+}
+
+.contentpgh,
+.contentpgh2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin-left: 30px;
+}
+.contentpgh,
+.contentpgh2{
+    margin-bottom: 20px;
 }
