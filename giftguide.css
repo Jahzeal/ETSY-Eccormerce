@@ -169,9 +169,12 @@
 .occasionpara{
     margin-left: 20px;
 }
+.giftarticcles > #contentfirstpgh{
+    border-top: 1px solid grey;
+
+}
 .giftarticcles > h3{
     padding-bottom: 40px;
-    border-bottom: 1px solid grey;
     display: flex;
     justify-content: center;
     font-weight: 100;
@@ -183,11 +186,15 @@
     cursor: pointer;
     box-shadow: 0.1px 0.3px 5px grey;
 }
+.contentpgh p,
+.contentpgh2 p{
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
 
 .contentpgh,
 .contentpgh2{
-    padding-top: 10px;
-    padding-bottom: 10px;
     border-bottom: 1px solid grey;
     margin-left: 30px;
 }

@@ -1,0 +1,137 @@
+.firstcontainer-registry{
+    background-color: rgb(9, 57, 9);
+    height: 35rem;
+    width: 70rem;
+}
+.secondRegistryContainer > h3{
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    font-weight: 100;
+    color: white;
+}
+.secondRegistryContainer > p{
+    display: grid;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+.secondRegistryContainer > button{
+    margin-left: 43%;
+}
+.secondRegistryContainer{
+    padding-top: 4%;
+    margin-bottom: 30px;
+}
+.secondRegistryContainer > button{
+    color: white;
+    background-color: rgb(9, 57, 9);
+    height: 45px;
+    width: 160px;
+    border-radius: 40px;
+    font-size: 16px;
+    border: 3px solid white;
+}
+.registrysections{
+    border-radius: 8px;
+}
+.registrySection {
+    width: 19rem;
+    background-size: contain;
+    height: 3rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url("https://i.etsystatic.com/site-assets/registry/wedding-banner.png");
+}
+.registryPara > button{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 160px;
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+}
+.registryPara > #secondpara{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.registryPara > p{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.registryPara > h3{
+    display: flex;
+    justify-content: center;
+}
+.registryfirst{
+    margin-left: 30px;
+    height: 150px;
+    width: 19rem;
+    border-radius: 10px;
+}
+.registryfirst{
+    margin-left: 80px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.registrysections{
+    margin-top: 20px;
+    background-color: white;
+}
+.everysect > .h3section{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.reasonsSection{
+    background-color: rgb(182, 182, 160);
+    height: 25rem;
+    margin-top: 120px;
+    display: flex;
+}
+ .reasonsSection > .holdbackgroudimg{
+    height: 100%;
+    width: 55%;
+    background-size: contain;
+    background-image: url("https://i.etsystatic.com/site-assets/registry/lg-masonry-grid.png");
+}
+.links > #firstanchortag{
+    padding-top: 10px;
+    border-top: 1px solid grey;
+    
+}
+.links > a > p:hover{
+    box-shadow: 0.1px 0.1px 4px grey;
+}
+.links > a > p{
+
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 30px;
+}
+.links > a{
+    border-bottom: 1px solid grey;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
+.fourthSection > h3{
+    display: flex;
+    justify-content: center;
+}
+.lasth3{
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+}
+.lasth3 > h3 a{
+    color: black;
+}
